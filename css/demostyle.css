@@ -1,0 +1,40 @@
+body {
+    padding-bottom: 20px;
+  }
+
+.navbar-brand {
+    color: #FF9C00 !important;
+}
+
+.navbar-nav .nav-item {
+    font-size: medium;
+    font-weight: bold;
+}
+.navbar-nav .nav-item :hover {
+    color: #FF9C00 !important;    
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+img {
+    width: 70%;
+}
+input.btn {
+    font-weight: bold;
+}
+input.btn:hover {
+    background-color: #FF9C00;
+    color: black;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+}
+
